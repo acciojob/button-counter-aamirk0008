@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const [count, setCount] = useState(0)
   let handleClick = () => {
-    setCount((count) => count + 1)
+    setCount(count + 1)
   }
   return (
     <div>
