@@ -9,7 +9,7 @@ const Counter = () => {
     }
     <div>
     <p>Button Clicked {count} times</p>
-        <button onClick={handleClick}>Click me</button>
+        <button onClick={handleClick}>click me</button>
     </div>
     
   )
